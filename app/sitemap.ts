@@ -1,0 +1,1 @@
+import type {MetadataRoute} from 'next'; export default function sitemap():MetadataRoute.Sitemap{return ['','/realisations','/archives','/services','/contact'].map(path=>({url:`https://lya-atelier.vercel.app${path}`,lastModified:new Date()}))}

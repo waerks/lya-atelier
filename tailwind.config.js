@@ -1,0 +1,2 @@
+/** @type {import('tailwindcss').Config} */
+module.exports={content:['./app/**/*.{ts,tsx}','./components/**/*.{ts,tsx}','./lib/**/*.{ts,tsx}'],theme:{extend:{colors:{ivory:'#F5F3F0',beige:'#E8E4DF',brown:'#2A2A2A',gray:'#6B6B6B','sage':'#8B9B6B','sage-light':'#A8B88A'},fontFamily:{display:['var(--font-playfair)'],sans:['var(--font-inter)']},animation:{'fade-up':'fadeUp .8s ease both'},keyframes:{fadeUp:{'0%':{opacity:'0',transform:'translateY(20px)'},'100%':{opacity:'1',transform:'translateY(0)'}}}}},plugins:[]}

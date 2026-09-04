@@ -1,0 +1,2 @@
+# Sanity — préparation
+Le schéma `schemas/project.ts` documente exactement la structure utilisée localement. Pour connecter Sanity : `npm install next-sanity sanity`, créer un projet sur sanity.io, définir `NEXT_PUBLIC_SANITY_PROJECT_ID` et `NEXT_PUBLIC_SANITY_DATASET`, puis créer un client `createClient` et remplacer les fonctions de `lib/projects.ts` par `fetch` avec GROQ. Les champs et les slugs sont déjà alignés.

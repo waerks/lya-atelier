@@ -1,0 +1,1 @@
+import type {Project} from '@/lib/projects'; import ProjectCard from './ProjectCard'; export default function ProjectList({projects}:{projects:Project[]}){return <div className="grid gap-12 md:grid-cols-2">{projects.map((p,i)=><ProjectCard key={p.slug} project={p} index={i}/>)}</div>}
